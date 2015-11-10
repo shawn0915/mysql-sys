@@ -1,4 +1,4 @@
-# MariaDB-compatible version of sys-schema
+# sys-schema fully compatible with MariaDB, MySQL and Percona server.
 
 The original sys schema, https://github.com/MarkLeith/mysql-sys, installs with
 errors in MariaDB 10. This is due to some missing/different features and
