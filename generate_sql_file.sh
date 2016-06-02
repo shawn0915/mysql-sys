@@ -82,7 +82,7 @@ while getopts ":v:bhmu:" opt; do
       fi
       ;;
     v)
-      if [ $OPTARG == "56" ] || [ $OPTARG == "57" ] ;
+      if [ $OPTARG == "56" ] || [ $OPTARG == "57" ] || [ $OPTARG == "100" ] || [ $OPTARG == "101" ];
       then
         MYSQLVERSION=$OPTARG
       else
