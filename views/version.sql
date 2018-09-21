@@ -33,6 +33,6 @@ VIEW version (
   sys_version,
   mysql_version
 ) AS 
-SELECT '1.6.2' AS sys_version, 
+SELECT '1.7.0' AS sys_version, 
         version() AS mysql_version;
 
