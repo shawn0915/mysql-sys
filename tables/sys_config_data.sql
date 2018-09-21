@@ -16,7 +16,7 @@
 -- NOTE: This needs to be replicated within the sys_config_clean.inc file
 
 INSERT IGNORE INTO sys.sys_config (variable, value) VALUES
-    ('statement_truncate_len', 64),
+    ('statement_truncate_len', 10000),
     ('statement_performance_analyzer.limit', 100),
     ('statement_performance_analyzer.view', NULL),
     ('diagnostics.allow_i_s_tables', 'OFF'),

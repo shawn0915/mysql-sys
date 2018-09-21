@@ -1,3 +1,29 @@
+# sys-schema fully compatible with MariaDB, MySQL and Percona server.
+
+The original sys schema, https://github.com/MarkLeith/mysql-sys, installs with
+errors in MariaDB 10. This is due to some missing/different features and
+varibles in MariaDB 10. This is is a patched version of mysql-sys that installs
+without errors. Main changes:
+
+* Changed references of @@server_uuid variable to @@server_id
+* Disabled functionality dependent on 'TABLE' (as opposed to 'FILE') replication information, master_info_source and replay_info_source
+
+To install, use:
+
+    cd mysql-sys/
+    mysql -u root -p < ./sys_MariaDB-10.0.sql
+    
+work with :
+* MariaDB-10.0
+* MariaDB-10.1
+* Percona-5.6
+* MySQL-5.6
+* MySQL-5.7
+    
+
+Original Readme:
+
+
 # The MySQL sys schema
 
 A collection of views, functions and procedures to help MySQL administrators get insight in to MySQL Database usage.
