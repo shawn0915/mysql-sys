@@ -11,15 +11,16 @@ without errors. Main changes:
 To install, use:
 
     cd mysql-sys/
-    mysql -u root -p < ./sys_MariaDB-10.0.sql
+    mysql -u root -p < ./sys_100.sql
     
 work with :
-* MariaDB-10.0
-* MariaDB-10.1
-* Percona-5.6
-* MySQL-5.6
-* MySQL-5.7
-    
+- [x] MySQL-5.6
+- [x] MySQL-5.7
+- [ ] MySQL-8.0
+- [x] MariaDB-10.0
+- [x] MariaDB-10.1
+- [x] MariaDB-10.2
+- [ ] MariaDB-10.3    
 
 Original Readme:
 
