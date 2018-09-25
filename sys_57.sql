@@ -59,6 +59,12 @@ SOURCE ./views/i_s/x_schema_flattened_keys.sql
 SOURCE ./views/i_s/schema_redundant_indexes.sql
 
 SOURCE ./views/p_s/ps_check_lost_instrumentation_57.sql
+SOURCE ./views/p_s/processlist_57.sql
+SOURCE ./views/p_s/x_processlist_57.sql
+
+SOURCE ./views/p_s/sessions.sql
+SOURCE ./views/p_s/x_sessions.sql
+SOURCE ./views/p_s/session_ssl_status.sql
 
 SOURCE ./views/p_s/latest_file_io.sql
 SOURCE ./views/p_s/x_latest_file_io.sql
@@ -150,13 +156,6 @@ SOURCE ./views/p_s/waits_global_by_latency.sql
 SOURCE ./views/p_s/x_waits_global_by_latency.sql
 
 SOURCE ./views/p_s/metrics.sql
-
-SOURCE ./views/p_s/processlist_57.sql
-SOURCE ./views/p_s/x_processlist_57.sql
-
-SOURCE ./views/p_s/sessions.sql
-SOURCE ./views/p_s/x_sessions.sql
-SOURCE ./views/p_s/session_ssl_status.sql
 
 SOURCE ./procedures/create_synonym_db.sql
 SOURCE ./procedures/execute_prepared_stmt.sql
