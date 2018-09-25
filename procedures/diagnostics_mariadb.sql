@@ -260,7 +260,7 @@ BEGIN
     UNION ALL
     SELECT 'Datadir' AS 'Name', @@global.datadir AS 'Value'
     UNION ALL
-    SELECT 'Server UUID' AS 'Name', @@server_id AS 'Value'
+    SELECT 'Server ID' AS 'Name', @@global.server_id AS 'Value'
     UNION ALL
     SELECT REPEAT('-', 23) AS 'Name', v_banner AS 'Value'
     UNION ALL
