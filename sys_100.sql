@@ -16,6 +16,7 @@ SOURCE ./functions/format_bytes.sql
 SOURCE ./functions/format_path.sql
 SOURCE ./functions/format_statement.sql
 SOURCE ./functions/format_time.sql
+SOURCE ./functions/is_system_schema.sql
 SOURCE ./functions/list_add.sql
 SOURCE ./functions/list_drop.sql
 SOURCE ./functions/ps_is_account_enabled.sql
@@ -26,6 +27,7 @@ SOURCE ./functions/ps_is_thread_instrumented.sql
 SOURCE ./functions/ps_thread_id.sql
 SOURCE ./functions/ps_thread_account.sql
 SOURCE ./functions/ps_thread_stack.sql
+SOURCE ./functions/quote_identifier.sql
 SOURCE ./functions/sys_get_config.sql
 SOURCE ./functions/version_major.sql
 SOURCE ./functions/version_minor.sql
@@ -41,6 +43,12 @@ SOURCE ./views/i_s/schema_object_overview.sql
 SOURCE ./views/i_s/schema_auto_increment_columns.sql
 SOURCE ./views/i_s/x_schema_flattened_keys.sql
 SOURCE ./views/i_s/schema_redundant_indexes.sql
+SOURCE ./views/i_s/schema_health_check.sql
+SOURCE ./views/i_s/schema_index_check.sql
+SOURCE ./views/i_s/schema_lock_mdl_info_100.sql
+SOURCE ./views/i_s/schema_object_all.sql
+
+SOURCE ./views/mysql/user_role_privileges.sql
 
 SOURCE ./views/p_s/ps_check_lost_instrumentation.sql
 SOURCE ./views/p_s/processlist.sql

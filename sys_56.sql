@@ -56,6 +56,9 @@ SOURCE ./views/i_s/schema_object_overview.sql
 SOURCE ./views/i_s/schema_auto_increment_columns.sql
 SOURCE ./views/i_s/x_schema_flattened_keys.sql
 SOURCE ./views/i_s/schema_redundant_indexes.sql
+SOURCE ./views/i_s/schema_health_check.sql
+SOURCE ./views/i_s/schema_index_check.sql
+SOURCE ./views/i_s/schema_object_all.sql
 
 SOURCE ./views/p_s/ps_check_lost_instrumentation.sql
 SOURCE ./views/p_s/processlist.sql

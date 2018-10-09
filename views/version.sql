@@ -19,12 +19,13 @@
 -- Shows the sys schema and mysql versions
 --
 -- mysql> select * from sys.version;
--- +-------------+---------------+
--- | sys_version | mysql_version |
--- +-------------+---------------+
--- | 1.6.0       | 5.7.8-rc      |
--- +-------------+---------------+
+-- +-------------+--------------------+
+-- | sys_version | mysql_version      |
+-- +-------------+--------------------+
+-- | 1.7.1       | 10.3.9-MariaDB-log |
+-- +-------------+--------------------+
 -- 
+
 
 CREATE OR REPLACE
   DEFINER = 'root'@'localhost'
@@ -33,6 +34,6 @@ VIEW version (
   sys_version,
   mysql_version
 ) AS 
-SELECT '1.7.0' AS sys_version, 
+SELECT '1.7.1' AS sys_version, 
         version() AS mysql_version;
 
